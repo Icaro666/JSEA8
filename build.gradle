@@ -24,9 +24,6 @@ dependencies {
     implementation 'com.google.guava:guava:23.0'
 
     // Use JUnit test framework
-    //testImplementation 'junit:junit:4.12'
-    // https://mvnrepository.com/artifact/org.junit/junit-engine-api
-	compile group: 'org.junit', name: 'junit-engine-api', version: '5.0.0-ALPHA'
-    
+    testImplementation 'junit:junit:4.12'
 }
 
